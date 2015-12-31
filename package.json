@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "watch": "nodemon server.js",
-    "postinstall": "bower install && gulp build"
+    "watch": "nodemon server.js"
   },
   "babel": {
     "presets": [
