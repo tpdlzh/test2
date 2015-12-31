@@ -3,7 +3,7 @@ import lib from '../lib/lib.js';
 import {Link} from 'react-router';
 import NavbarAction from '../actions/NavbarAction';
 import NavbarStore from '../stores/NavbarStore';
-import Sidebar from './SideNav';
+import SideNav from './SideNav';
 
  class Navbar extends React.Component
  {
@@ -160,7 +160,7 @@ import Sidebar from './SideNav';
           </div> 
         </div>
 {this.state.loggedIn ?
-        <Sidebar/>
+        <SideNav/>
         :
        undefined}   
       </nav>
