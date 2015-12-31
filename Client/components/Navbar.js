@@ -3,7 +3,7 @@ import lib from '../lib/lib.js';
 import {Link} from 'react-router';
 import NavbarAction from '../actions/NavbarAction';
 import NavbarStore from '../stores/NavbarStore';
-import Sidebar from './sideNav';
+import Sidebar from './SideNav';
 
  class Navbar extends React.Component
  {
