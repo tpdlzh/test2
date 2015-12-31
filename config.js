@@ -1,5 +1,5 @@
 module.exports = {
-	db:'mongodb://localhost/rmiter',
+	db:'mongodb://<tpdlzh>:<nam8315>@ds035137.mongolab.com:35137/events',
 	sessionSecret:'development',
 	JWTSECRET:'development',
 	blockURL:["/verify_your_email"],
